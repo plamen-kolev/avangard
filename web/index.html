@@ -30,11 +30,11 @@
 
           <div class="nav navbar-nav navbar-right">
             <ol class="breadcrumb">
-              <li><a href="#">начало</a></li>
-              <li><a href="#">услуги</a></li>
-              <li><a href="#">за нас</a></li>
-              <li><a href="#">галерия</a></li>
-              <li><a href="#">контакт</a></li>
+              <li><a href="#landing_container">начало</a></li>
+              <li><a href="#service">услуги</a></li>
+              <li><a href="#about">за нас</a></li>
+              <li><a href="#gallery_href">галерия</a></li>
+              <li><a href="#contact">контакт</a></li>
             </ol>
           </div>
         </div><!-- /.navbar-collapse -->
@@ -60,8 +60,8 @@
   <!-- ENDLANDING  -->
 
   <!-- USLUGI -->
-  <div class="section_spacing yellow" id="uslugi">
-    <div class="container">
+  <div class="section_spacing yellow">
+    <div class="container" id="service">
       <h1 class="main_h1">услуги</h1>
       <div id="uslugi_container" class="element_spacing col-md-12">
         <div data-parent="#uslugi_container" data-toggle="collapse" data-target="#usluga_1" class="usluga col-md-3">
@@ -160,7 +160,7 @@
 
   <div class="col-md-12">
     <div class="container section_spacing">
-      <h1 class="main_h1">за нас</h1>
+      <h1 class="main_h1" id="about">за нас</h1>
       <div class="col-md-12 about_text element_spacing" >
         <div class="col-md-4">
           <img class="img-thumbnail" src="images/about_1.jpg" alt=""/>
@@ -186,7 +186,7 @@
   <!-- galeriq -->
   <div id="gallery" class="col-md-12 yellow section_spacing">
     <div class="container">
-      <h1 class="main_h1">галерия</h1>
+      <h1 id="gallery_href" class="main_h1">галерия</h1>
       <div class="col-md-12 element_spacing">
         <div class="col-md-3 square_image">
           <a href="http://pre03.deviantart.net/834e/th/pre/f/2017/163/2/8/birbs_by_tsaoshin-dbch2hh.png" data-lightbox="roadtrip">
@@ -234,9 +234,9 @@
   <!-- endgaleria -->
 
   <!-- contact -->
-  <div class="col-md-12 section_spacing dark">
+  <div class="col-md-12 section_spacing dark nopadding nomargin">
     <div class="container">
-      <h1 class="main_h1 ">контакт</h1>
+      <h1 id="contact" class="main_h1 ">контакт</h1>
       <div class="col-md-12">
 
 
@@ -245,16 +245,37 @@
       </div>
     </div>
 
-    <div id="map"></div>
+    <div class="element_spacing" id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10459.819430208598!2d24.337088158086843!3d42.183288650218906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDEwJzM3LjUiTiAyNMKwMjEnMTAuMiJF!5e0!3m2!1sen!2sbg!4v1497638714273" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
     <div class="col-md-12">
       <div class="container">
         <h2 class="main_h1 element_spacing">за връзка</h2>
         <div class="col-md-12">
-          <form enctype="text/plain" method="get" action="mailto:webdesign@aboutguide.com">
-          <div class="input-group">
-            
-          </div>
-          <input type="submit" value="Send">
+          <form class="element_spacing" action="https://formspree.io/asdasdsd@mailinator.com   " method="POST">
+            <div class="form-group col-md-4">
+              <label for="name">Име</label>
+              <input type="text" id="name" name="name"/>
+            </div>
+
+            <div class="form-group col-md-4">
+              <label for="email">Имейл</label>
+              <input type="text" id="email" name="email"/>
+            </div>
+
+            <div class="form-group col-md-4">
+              <label for="telephone">Телефон</label>
+              <input type="text" id="telephone" name="telephone"/>
+            </div>
+
+            <div class="form-group col-md-12">
+              <label for="body">Съобщение</label>
+              <textarea rows="10" type="body" id="body" name="body"></textarea>
+            </div>
+            <div class="form-group col-md-12">
+              <input id="form_submit_button" class="pull-right" type="submit" value="Изпрати">
+            </div>
+
           </form>
         </div>
       </div>
@@ -274,7 +295,7 @@
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
   <script src="js/lightbox.js"></script>
-  <script async defer
+  <!-- <script async defer
    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBcXrf03SUBrXH55xMQr46NKAUavfqxSE&callback=initMap">
-   </script>
+   </script> -->
 </html>
