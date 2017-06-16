@@ -2,6 +2,34 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans');
 
 /* globals */
+
+.yellow{
+  background: #f6c451;
+}
+
+p{
+  font-family: 'Nunito', sans-serif;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 3.6em;
+  font-weight: bold;
+}
+
+.main_h1{
+  margin-left: 25px;
+}
+
+.section_spacing{
+  padding-top:150px;
+  padding-bottom:150px;
+}
+
+.element_spacing{
+  margin-top:75px;
+}
+
 /* endglobals */
 
 /* NAV STYLING */
@@ -28,7 +56,7 @@ nav a, .navbar-default .navbar-brand{
 }
 
 nav a:hover, .navbar-default .navbar-brand:hover {
-  color: #ffcc00;
+  color: #f6c451;
 }
 
 /* END NAV STYLING */
@@ -44,17 +72,62 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 #testimonial{
 
   background-color: rgba(34, 34, 34, 0.86);
-  padding:10px;
+  padding:10px 20px 10px 20px;
 }
 
 #testimonial h1{
-  color: #ffcc00;
-  font-size:4em;
+  color: #f6c451;
+  font-size:3.5em;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
 #testimonial p{
   color: white;
+  font-size:1.3em;
 }
 
 /* endlanding */
+
+/* uslugi */
+.usluga{
+  padding:10px;
+
+
+}
+.usluga_inner{
+  cursor: pointer;
+  min-height: 320px;
+  background-color: #ffd573;
+  text-align: center;
+  padding:30px 15px 0px 15px;
+}
+
+.usluga p{
+  margin-top:25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size:1.2em;
+}
+
+.usluga img{
+  max-width: 180px;
+}
+
+.usluga_tooltip{
+
+  width:100%;
+}
+
+#usluga_bg{
+  padding:10px;
+  background: #ffd573;
+}
+
+.arrow {
+    background-image: url('../images/arrow_up.png');
+    height:34px;
+    width:97px;
+    margin-left: 86px;
+}
+/* enduslugi */

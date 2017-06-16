@@ -4,5 +4,5 @@ $('#landing_container').css({
 });
 
 $('#testimonial').css({
-  "marginTop": $( window ).height() / 2
+  "marginTop": $( window ).height() / 4
 });
