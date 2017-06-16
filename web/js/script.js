@@ -1,6 +1,6 @@
 
 $('#landing_container').css({
-  "height": $( window ).height()
+  "min-height": $( window ).height()
 });
 
 $('#testimonial').css({
