@@ -7,6 +7,10 @@
   background: #f6c451;
 }
 
+.dark{
+  background: #2c2a27;
+}
+
 p{
   font-family: 'Nunito', sans-serif;
   font-size:1.2em;
@@ -16,6 +20,10 @@ h1{
   text-transform: uppercase;
   font-size: 3.6em;
   font-weight: bold;
+}
+
+h2{
+  text-transform: uppercase;
 }
 
 .main_h1{
@@ -138,3 +146,30 @@ nav a:hover, .navbar-default .navbar-brand:hover {
   margin-top:30px;
 }
 /* endzanas */
+
+/* gallery */
+
+#gallery img{
+  width:100%;
+}
+
+.square_image{
+  margin-bottom:30px;
+}
+/* endgallery */
+
+/* contact */
+.dark h1, .dark h2{
+  color:white;
+}
+
+.dark p{
+  color:white;
+  font-weight: bold;
+}
+
+#map {
+ height: 400px;
+ width: 100%;
+}
+/* endcontact */
