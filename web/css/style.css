@@ -1,0 +1,60 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans');
+
+/* globals */
+/* endglobals */
+
+/* NAV STYLING */
+
+nav .breadcrumb{
+  margin-top:20px;
+  background:none;
+}
+
+nav .navbar-brand{
+  margin-top: 14px;
+}
+
+.navbar-default{
+  background:none;
+  border:none;
+}
+
+nav a, .navbar-default .navbar-brand{
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a:hover, .navbar-default .navbar-brand:hover {
+  color: #ffcc00;
+}
+
+/* END NAV STYLING */
+
+/* landing */
+#landing_container{
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top:-96px;
+}
+
+#testimonial{
+
+  background-color: rgba(34, 34, 34, 0.86);
+  padding:10px;
+}
+
+#testimonial h1{
+  color: #ffcc00;
+  font-size:4em;
+  font-weight: bold;
+}
+
+#testimonial p{
+  color: white;
+}
+
+/* endlanding */
