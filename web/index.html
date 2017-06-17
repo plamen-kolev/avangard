@@ -261,23 +261,24 @@
           <form class="element_spacing" action="https://formspree.io/asdasdsd@mailinator.com   " method="POST">
             <div class="form-group col-md-4">
               <label for="name">Име</label>
-              <input type="text" id="name" name="name"/>
+              <input type="text" id="name" name="name" required/>
             </div>
 
             <div class="form-group col-md-4">
               <label for="email">Имейл</label>
-              <input type="text" id="email" name="email"/>
+              <input type="email" id="email" name="email" required/>
             </div>
 
             <div class="form-group col-md-4">
               <label for="telephone">Телефон</label>
-              <input type="text" id="telephone" name="telephone"/>
+              <input type="tel" id="telephone" name="telephone" required/>
             </div>
 
             <div class="form-group col-md-12">
               <label for="body">Съобщение</label>
-              <textarea rows="10" type="body" id="body" name="body"></textarea>
+              <textarea min="1" rows="10" type="body" id="body" name="body" required></textarea>
             </div>
+            <input type="hidden" name="_next" value="http://localhost:8080" />
             <div class="form-group col-md-12">
               <input id="form_submit_button" class="pull-right" type="submit" value="Изпрати">
             </div>
