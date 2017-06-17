@@ -234,11 +234,14 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 
 #gallery img{
   width:100%;
+  background-color: #eee;
 }
 
 .square_image{
   margin-bottom:30px;
 }
+
+
 /* endgallery */
 
 /* contact */
