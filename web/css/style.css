@@ -151,6 +151,7 @@ nav a:hover, .navbar-default .navbar-brand:hover {
   background-size: cover;
   background-position: 50% 50%;
   margin-top:1px;
+  background-color: #333;
 }
 
 #testimonial{
@@ -197,6 +198,12 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 
 .usluga img{
   max-width: 180px;
+}
+
+.img-thumbnail{
+  height: 213px;
+  width: 100%;
+  background-color: #eee;
 }
 
 .usluga_tooltip{
