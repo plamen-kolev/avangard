@@ -51,6 +51,73 @@ h2{
 
 /* NAV STYLING */
 
+.breadcrumb{
+  padding:17px 15px;
+}
+
+.navbar_small .breadcrumb{
+  padding:9px 15px;
+}
+
+#small_logo{
+  margin-left:100px;
+}
+
+#large_logo img{
+  height:50px;
+  margin-left:120px;
+}
+
+/* fixed navbar when scrolling */
+
+nav .breadcrumb a{
+  font-size:1.3em;
+}
+
+/* responsive small navbar*/
+.navbar_small{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width:100%;
+  border-radius:0;
+  background-color: #333 !important;
+  height: 65px;
+  right: 63px;
+}
+
+.navbar_small #large_logo{
+  display: none;
+
+}
+
+.navbar_small .navbar-brand{
+  margin-top:10px;
+}
+
+.navbar_small .breadcrumb{
+  margin-top:14px;
+}
+
+.navbar_small .breadcrumb a{
+  font-size:1.1em;
+}
+
+.navbar_small a{
+  font-size:1.1em;
+}
+
+/* end responsive small navbar */
+
+.navbar-brand{
+  margin-left:50px;
+}
+
+.navbar{
+  /*width:100%;*/
+}
+
 nav .breadcrumb{
   margin-top:20px;
   background:none;
@@ -83,7 +150,7 @@ nav a:hover, .navbar-default .navbar-brand:hover {
   background-image: url('../images/landing.jpg');
   background-size: cover;
   background-position: 50% 50%;
-  margin-top:-96px;
+  margin-top:1px;
 }
 
 #testimonial{
@@ -94,6 +161,7 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 
 #testimonial h1{
   color: #f6c451;
+  font-family: 'Nunito', sans-serif;
   font-size:3.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -200,7 +268,7 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 }
 
 #form_submit_button{
-  background-color: #f6eb60;
+  background-color: #ffd573;
   height: 50px;
   width:300px;
   border: none;

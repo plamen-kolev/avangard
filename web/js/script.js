@@ -7,6 +7,17 @@ $('#testimonial').css({
   "marginTop": $( window ).height() / 4
 });
 
+$(window).scroll(function () {
+    var sc = $(window).scrollTop()
+    if (sc > 50) {
+        $("#navbar").addClass("navbar_small");
+        $("#small_logo").removeClass("hide")
+    } else {
+        $("#navbar").removeClass("navbar_small")
+        $("#small_logo").addClass("hide")
+    }
+});
+
 // function initMap() {
 //   var uluru = {lat: 42.177082, lng: 24.352841};
 //   var map = new google.maps.Map(document.getElementById('map'), {

@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="css/style.css"/>
     <title>Авангард</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="css/lightbox.css" rel="stylesheet">
   </head>
   <body>
 
   <!-- NAVBAR -->
-  <div class="container">
-    <nav class="navbar navbar-default">
+  <div class="col-md-12 nopadding">
+    <nav class="navbar navbar-default" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -22,7 +23,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">авангард</a>
+
+          <a class="navbar-brand hide" id="small_logo" href="#landing_container">авангард</a>
+
+          <a class="navbar-brand" id="large_logo" href="#landing_container">
+            <img src="images/logo.png" alt="">
+          </a>
+
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
