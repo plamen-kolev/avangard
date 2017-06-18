@@ -51,6 +51,16 @@ h2{
 
 /* NAV STYLING */
 
+.navbar-toggle{
+  margin-top: 33px;
+  background: #333;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border:none;
+  float:right;
+}
+
 .breadcrumb{
   padding:17px 15px;
 }
@@ -75,6 +85,10 @@ nav .breadcrumb a{
 }
 
 /* responsive small navbar*/
+.navbar-default{
+  position: absolute;
+}
+
 .navbar_small{
   position: fixed;
   z-index: 1;
@@ -83,8 +97,12 @@ nav .breadcrumb a{
   width:100%;
   border-radius:0;
   background-color: #333 !important;
-  height: 65px;
+  /*height: 65px;*/
   right: 63px;
+}
+
+.navbar_small .navbar-toggle{
+  margin-top: 16px;
 }
 
 .navbar_small #large_logo{
@@ -115,11 +133,11 @@ nav .breadcrumb a{
 }
 
 .navbar{
-  /*width:100%;*/
+  width:100%;
 }
 
 nav .breadcrumb{
-  margin-top:20px;
+  margin-top:28px;
   background:none;
 }
 
@@ -201,7 +219,7 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 }
 
 .img-thumbnail{
-  height: 213px;
+  min-height: 150px;
   width: 100%;
   background-color: #eee;
 }
@@ -240,6 +258,15 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 
 .square_image{
   margin-bottom:30px;
+}
+
+
+/* media query */
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+  #large_logo img{
+    margin-left:0px;
+  }
 }
 
 
