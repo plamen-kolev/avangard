@@ -197,14 +197,18 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 .usluga{
   padding:10px;
 
-
 }
+
 .usluga_inner{
   cursor: pointer;
   min-height: 320px;
   background-color: #ffd573;
   text-align: center;
   padding:30px 15px 0px 15px;
+}
+
+#usluga_bg p{
+  margin-top:20px;
 }
 
 .usluga p{
@@ -245,6 +249,7 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 /* za nas */
 .about_text p{
   margin-top:30px;
+  margin-bottom: 30px;
 }
 /* endzanas */
 
@@ -259,16 +264,6 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 .square_image{
   margin-bottom:30px;
 }
-
-
-/* media query */
-/*// Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) { 
-  #large_logo img{
-    margin-left:0px;
-  }
-}
-
 
 /* endgallery */
 
@@ -309,15 +304,40 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 #form_submit_button{
   background-color: #ffd573;
   height: 50px;
-  width:300px;
   border: none;
   text-transform: uppercase;
   font-weight: bold;
   text-align: left;
   padding-left:20px;
+  width: 100%;
+  max-width: 308px;
 }
 
 #map iframe{
   pointer-events: none;
 }
 /* endcontact */
+
+
+/* media query */
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+  #large_logo img{
+    margin-left:0px;
+  }
+
+  .section_spacing{
+    padding-top:70px;
+    padding-bottom:70px;
+  }
+
+  .element_spacing{
+    margin-top:40px;
+  }
+}
+
+@media (max-width: 420px){
+  #testimonial{
+    margin-top: 70px !important;
+  }
+}
