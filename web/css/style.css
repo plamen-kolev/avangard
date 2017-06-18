@@ -70,12 +70,12 @@ h2{
 }
 
 #small_logo{
-  margin-left:100px;
+  /*margin-left:100px;*/
 }
 
 #large_logo img{
   height:50px;
-  margin-left:120px;
+  /*margin-left:120px;*/
 }
 
 /* fixed navbar when scrolling */
@@ -129,7 +129,7 @@ nav .breadcrumb a{
 /* end responsive small navbar */
 
 .navbar-brand{
-  margin-left:50px;
+  /*margin-left:50px;*/
 }
 
 .navbar{
