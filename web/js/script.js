@@ -48,5 +48,7 @@ $('#usluga_4_trigger').click(function(){
 
 ;(function() {
     // Initialize
-    var bLazy = new Blazy();
+    var bLazy = new Blazy({
+        offset: 100
+    });
 })();
