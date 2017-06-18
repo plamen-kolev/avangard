@@ -45,3 +45,8 @@ $('#usluga_4_trigger').click(function(){
     $('#usluga_3').hide("slow");    
     $('#usluga_4').toggle("slow");    
 });
+
+;(function() {
+    // Initialize
+    var bLazy = new Blazy();
+})();
